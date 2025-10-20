@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="ESTRUTURA_FINAL.png" >
-</p>
-
 # Projeto: Agente de E-mails com n8n
 ## Objetivo
 Desenvolver um agente de IA para gerenciar e-mails, classificando mensagens no Gmail automaticamente, utilizando o n8n e modelos da OpenAI.
@@ -16,3 +12,8 @@ Desenvolver um agente de IA para gerenciar e-mails, classificando mensagens no G
 - Classificação de E-mails: Configuração do nó Text Classifier.
 - Aplicação de Rótulos: Como adicionar rótulos aos e-mails classificados.
 - Respostas Automáticas: Configurar respostas de e-mail automáticas.
+
+
+<p align="center">
+  <img src="ESTRUTURA_FINAL.png" >
+</p>
