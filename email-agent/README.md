@@ -1,17 +1,33 @@
-# Projeto: Agente de E-mails com n8n
-## Objetivo
-Desenvolver um agente de IA para gerenciar e-mails, classificando mensagens no Gmail automaticamente, utilizando o n8n e modelos da OpenAI.
+## 📬 Email Agent – Automação Inteligente com n8n + IA
+Este projeto é um agente de e-mails multi-skills que interpreta, classifica e responde mensagens automaticamente com base em seu conteúdo. Ele foi desenvolvido com foco em escalabilidade, inteligência contextual e integração com ferramentas modernas.
 
-## Funcionalidades
-- Classificar e rotular e-mails automaticamente.
-- Aplicar rótulos do Gmail com base no conteúdo.
-- Configurar respostas automáticas ou triagem.
+## 🚀 Funcionalidades
+- Classificação automática de e-mails em categorias como:
+- Potencial Cliente
+- Aluno da Jornada
+- Spam ou Irrelevante
+- Interno ou Urgente
+- Ações automatizadas por categoria:
+- Deleta mensagens irrelevantes ou spam
+- Gera propostas comerciais estruturadas com IA para leads de pré-vendas
+- Responde dúvidas de alunos com tom acolhedor e personalizado
+- Envia alertas via Telegram para mensagens urgentes
 
-## Estrutura
-- Configuração Inicial: Como conectar o n8n ao Gmail.
-- Classificação de E-mails: Configuração do nó Text Classifier.
-- Aplicação de Rótulos: Como adicionar rótulos aos e-mails classificados.
-- Respostas Automáticas: Configurar respostas de e-mail automáticas.
+## 🧠 Tecnologias Utilizadas
+- n8n – Orquestração dos fluxos
+- OpenAI GPT-4o – Classificação e geração de respostas
+- Langchain – Agente de IA com raciocínio estruturado
+- Gmail API – Gatilho e envio de mensagens
+- Google Sheets – Armazenamento de dados para CRM
+- Telegram Bot – Notificações em tempo real
+
+## 📦 Estrutura do Projeto
+O fluxo é dividido em agentes especializados:
+- Start Classifier: identifica o tipo de e-mail
+- Reply Student Agent: responde dúvidas de alunos
+- Pre Sales Agent: gera propostas técnicas para leads
+- Delete Message: remove e-mails irrelevantes
+- Urgent/Internal Agent: envia alertas via Telegram
 
 
 <p align="center">
